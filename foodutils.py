@@ -1,4 +1,6 @@
 
+__version__ = '0.1.0'
+
 def greet_dude_with_food(dude_name, food_today):
     """
     funciond de prueba hecha por Ricardo Salinas
@@ -9,3 +11,7 @@ def greet_dude_with_food(dude_name, food_today):
     return "Hey {dude_name}! Want a {food_today} today?".format(
         dude_name=dude_name,
         food_today=food_today)
+
+
+if __name__ == '__main__':
+    greet_dude_with_food('nico','papas fritas')
