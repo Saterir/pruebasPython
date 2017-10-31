@@ -1,5 +1,4 @@
 
-__version__ = '0.1.0'
 
 def greet_dude_with_food(dude_name, food_today):
     """

@@ -2,7 +2,7 @@ import os
 
 import setuptools
 
-module_path = os.path.join(os.path.dirname(__file__), 'foodutils.py')
+module_path = os.path.join(os.path.dirname(__file__), 'foodutils/__init__.py')
 version_line = [line for line in open(module_path)
                 if line.startswith('__version__')][0]
 
@@ -13,8 +13,8 @@ setuptools.setup(
     version=__version__,
     url="https://github.com/misterfoo/foodutils",
 
-    author="Mister foo",
-    author_email="mister@foo.com",
+    author="Ricardo Salinas",
+    author_email="ricardo.salinase@gmail.com",
 
     description="Utils for handling food.",
     long_description=open('README.rst').read(),
